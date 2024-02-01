@@ -1,0 +1,9 @@
+h1 {
+  font-weight: normal;
+}
+h1 span {
+  font-weight: bold;
+}
+dd {
+  font-size: 1.5rem;
+}
