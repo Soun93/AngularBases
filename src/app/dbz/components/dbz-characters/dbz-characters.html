@@ -1,0 +1,7 @@
+<ul> 
+  <li *ngFor='let character of characterList; let index = index; let isFirst = first'
+    [ngClass]='{"first-character" : isFirst}' > 
+    {{ index + 1 }}. {{ character.name }} - <strong> Power: </strong>  {{ character.power }}
+    <button (click)="emitCharacterId(character.id)"> X </button>
+  </li>
+</ul>
